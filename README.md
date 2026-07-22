@@ -51,3 +51,44 @@ python-data-cleaning/
 * **shop_sales_raw.csv**           - Original raw dataset with intentional anomalies and dirty data
 * **shop_sales_cleaned.csv**       - Fully processed, validated, and standardized dataset
 
+---
+
+## Core Code Snippet
+
+Here is a look at the data cleaning logic used to standardize text and handle missing numeric values:
+
+```python
+import pandas as pd
+import numpy as np
+
+print("--- Starting Data Cleaning Pipeline ---\n")
+
+# 1. Ingest raw data
+df = pd.read_csv("shop_sales_raw.csv")
+print("Original dataset shape:")
+print(df.shape)
+
+# 2. Clean string columns (strip extra whitespace and standardize casing)
+df['customer_name'] = df['customer_name'].str.strip().str.title()
+df['status'] = df['status'].str.strip().str.capitalize()
+
+# 3. Handle missing values and data types
+df['total_price'] = pd.to_numeric(df['total_price'], errors='coerce')
+df['total_price'] = df['total_price'].fillna(0.0)
+
+# Handle missing or invalid dates
+df['order_date'] = df['order_date'].replace('NA', np.nan)
+df = df.dropna(subset=['order_date'])
+df['order_date'] = pd.to_datetime(df['order_date'])
+
+# 4. Output cleaned dataset
+df.to_csv("shop_sales_cleaned.csv", index=False)
+
+print("\nPipeline complete! Cleaned dataset saved as shop_sales_cleaned.csv")
+print("Cleaned dataset shape:")
+print(df.shape)
+
+# 5. Print the cleaned DataFrame to the screen without the index
+print("\nCleaned Data Preview:\n")
+print(df.to_string(index=False))
+
