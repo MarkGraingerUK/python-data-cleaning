@@ -1,0 +1,101 @@
+order_id,customer_name,total_price,order_date,status
+101,  alice smith ,150.50,2026-06-01,Completed
+102,BOB JONES, ,2026-06-02,Pending
+103,charlie brown,85.20,2026-06-03,Completed
+104,  DIANA PRINCE,200.00,NA,Cancelled
+105,edward NORMAND,45.00,2026-06-05,Completed
+106,fiona gallagher,120.00,2026-06-06,Completed
+107,  GEORGECLARK , ,2026-06-07,Pending
+108,hannah abbott,310.50,2026-06-08,Completed
+109,IAN MALCOLM,95.00,NA,Cancelled
+110,  julia roberts ,,2026-06-10,Completed
+111,kevin bacon,215.75,2026-06-11,Completed
+112,  LINDA HAMILTON ,130.00,2026-06-12,Pending
+113,michael jordan,450.00,NA,Completed
+114,nancy drew,65.25,2026-06-14,Cancelled
+115,  OLIVERQUEEN , ,2026-06-15,Completed
+116,peter parker,89.99,2026-06-16,Completed
+117,quinn fabray,140.00,NA,Pending
+118,  RACHEL GREEN ,175.50,2026-06-18,Completed
+119,steve rogers,300.00,2026-06-19,Completed
+120,  tony stark , ,2026-06-20,Pending
+121,uma thurman,110.25,2026-06-21,Completed
+122,victor stone,250.00,NA,Cancelled
+123,  WANDA MAXIMOFF ,95.50,2026-06-23,Completed
+124,xavier `charles, ,2026-06-24,Pending
+125,yoyo yen,40.00,2026-06-25,Completed
+126,  ZACH GALIFIANAKIS ,210.00,NA,Completed
+127,amanda waller,180.50,2026-06-27,Completed
+128,  BRUCE WAYNE , ,2026-06-28,Pending
+129,clark kent,350.00,2026-06-29,Completed
+130,diana prince,125.00,NA,Cancelled
+131,  ELLIOT ALDERSON ,99.99,2026-07-01,Completed
+132,felicity smoak,145.50,2026-07-02,Completed
+133,  GORDON RAMSAY , ,2026-07-03,Pending
+134,harley quinn,220.00,2026-07-04,Completed
+135,indiana jones,310.00,NA,Cancelled
+136,  JACK RYAN ,65.00,2026-07-06,Completed
+137,katherine pierce,190.25,2026-07-07,Completed
+138,  LUKE SKYWALKER , ,2026-07-08,Pending
+139,marty mcfly,88.88,2026-07-09,Completed
+140,neil armstrong,500.00,NA,Completed
+141,  ARTHUR DENT ,115.00,2026-07-11,Completed
+142,ford prefect,42.00,2026-07-12,Pending
+143,  TRICIANASBITT , ,2026-07-13,Cancelled
+144,zaphod beeblebrox,199.99,2026-07-14,Completed
+145,marvin android,0.00,NA,Pending
+146,  SLARTIBARTFAST ,350.00,2026-07-16,Completed
+147,eddie corbett,75.50,2026-07-17,Completed
+148,  AGATHA HARKNESS , ,2026-07-18,Pending
+149,barry allen,155.00,2026-07-19,Completed
+150,caitlin snow,240.25,NA,Cancelled
+151,  CISCO RAMON ,85.00,2026-07-21,Completed
+152,harrison wells,330.00,2026-07-22,Completed
+153,  RALPH DIBNY , ,2026-07-23,Pending
+154,iris west,125.50,2026-07-24,Completed
+155,joe west,95.00,NA,Completed
+156,  WALLY WEST ,110.00,2026-07-26,Completed
+157,jay garrick,145.00,2026-07-27,Completed
+158,  NORA WEST-ALLEN , ,2026-07-28,Pending
+159,clifford devoe,275.00,2026-07-29,Completed
+160,marlize devoe,190.00,NA,Cancelled
+161,  HARTLEY RATHAWAY ,65.00,2026-07-31,Completed
+162,julian albert,82.50,2026-08-01,Completed
+163,  SAVITAR , ,2026-08-02,Pending
+164,zoom hunter,310.00,2026-08-03,Completed
+165,reverse flash,450.00,NA,Cancelled
+166,  FRED SAVAGE ,112.50,2026-08-05,Completed
+167,george lucas,85.00,2026-08-06,Completed
+168,  STEVEN SPIELBERG , ,2026-08-07,Pending
+169,martin scorsese,160.00,2026-08-08,Completed
+170,quentin tarantino,210.00,NA,Completed
+171,  CHRISTOPHER NOLAN ,350.00,2026-08-10,Completed
+172,ridley scott,175.00,2026-08-11,Completed
+173,  DENIS VILLENEUVE , ,2026-08-12,Pending
+174,greta gerwig,130.00,2026-08-13,Completed
+175,bong joon-ho,145.00,NA,Cancelled
+176,  PETER JACKSON ,290.00,2026-08-15,Completed
+177,james cameron,400.00,2026-08-16,Completed
+178,  DAVID FINCHER , ,2026-08-17,Pending
+179,paul thomas anderson,185.00,2026-08-18,Completed
+180,coen brothers,220.00,NA,Completed
+181,  WES ANDERSON ,95.00,2026-08-20,Completed
+182,sofia coppola,75.00,2026-08-21,Completed
+183,  DAMIEN CHAZELLE , ,2026-08-22,Pending
+184,ryan coogler,165.00,2026-08-23,Completed
+185,chloe zhao,110.00,NA,Cancelled
+186,  BARRY JENKINS ,125.00,2026-08-25,Completed
+187,jordan peele,140.00,2026-08-26,Completed
+188,  ARIE ASTER , ,2026-08-27,Pending
+189,robert eggers,155.00,2026-08-28,Completed
+190,dennis hopper,80.00,NA,Completed
+191,  STANLEY KUBRICK ,500.00,2026-08-30,Completed
+192,alfred hitchcock,250.00,2026-08-31,Completed
+193,  ORSON WELLES , ,2026-09-01,Pending
+194,akira kurosawa,300.00,2026-09-02,Completed
+195,federico fellini,180.00,NA,Cancelled
+196,  INGMAR BERGMAN ,140.00,2026-09-04,Completed
+197,jean-luc godard,90.00,2026-09-05,Completed
+198,  FRANCIS FORD COPPOLA , ,2026-09-06,Pending
+199,sergio leone,215.00,2026-09-07,Completed
+200,billy wilder,160.00,NA,Completed
