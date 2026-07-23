@@ -7,6 +7,8 @@ Data quality is the foundation of any reliable analysis, business intelligence d
 The script ingests a raw, unvalidated retail sales dataset containing anomalies, inconsistent text casing, whitespace issues, missing values, and corrupted date formats, and systematically transforms it into a pristine, analysis-ready structure.
 
 ---
+![Cleaned Data](python_data_cleaning.webp)
+---
 
 ## Key Objectives
 
